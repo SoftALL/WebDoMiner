@@ -115,7 +115,7 @@ class Settings:
         self.data_output_dir = self.project_root / "data" / "output"
         self.logs_dir = self.project_root / "logs"
 
-        self.default_input_file = self.data_input_dir / "requirements.txt"
+        self.default_input_file = self.data_input_dir / "webdominer_sample_input_healthcare.txt"
         self.accepted_output_file = self.data_output_dir / "corpus.jsonl"
         self.rejected_output_file = self.data_output_dir / "rejected.jsonl"
         self.failed_output_file = self.data_output_dir / "failed.jsonl"

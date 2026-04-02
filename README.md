@@ -179,14 +179,14 @@ pip install -e ".[dev]"
 Place your input file in `data/input/` or `examples/`, then run:
 
 ```bash
-python -m webdominer.cli --input "examples/sample_rs_healthcare.txt"
+python -m webdominer.cli --input "examples/sample_rs.txt"
 ```
 
 ### Common Options
 
 ```bash
 python -m webdominer.cli \
-  --input "examples/sample_rs_healthcare.txt" \
+  --input "examples/sample_rs.txt" \
   --top-keywords 10 \
   --top-urls 5 \
   --similarity-threshold 0.45 \
