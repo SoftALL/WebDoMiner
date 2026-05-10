@@ -1,6 +1,6 @@
 # WebDoMiner
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SoftALL/WebDoMiner-3.0/blob/main/notebooks/WebDoMiner_Colab_Demo.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SoftALL/WebDoMiner/blob/main/notebooks/WebDoMiner_Colab_Demo.ipynb)
 
 WebDoMiner generates a domain-specific corpus from the open web using a natural-language Requirements Specification (RS) document. It extracts meaningful keywords from the RS itself, discovers relevant public web pages, scrapes and cleans their main text, filters low-value content, and outputs a structured JSONL corpus with full source traceability.
 
